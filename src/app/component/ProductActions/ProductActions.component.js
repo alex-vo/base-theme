@@ -329,6 +329,7 @@ export class ProductActions extends PureComponent {
         } = this.props;
 
         return (
+            <div>
             <AddToCart
               product={ product }
               configurableVariantIndex={ configurableVariantIndex }
@@ -338,6 +339,8 @@ export class ProductActions extends PureComponent {
               onProductValidationError={ onProductValidationError }
               productOptionsData={ productOptionsData }
             />
+            aaa
+            </div>
         );
     }
 

@@ -127,6 +127,7 @@ export class ProductBundleItem extends ProductCustomizableOption {
 
         return (
             <div block="ProductBundleItem" elem="DropdownWrapper">
+                abc
                 <Field
                   id="bundle-options-dropdown"
                   name="bundle-options-dropdown"
